@@ -20,16 +20,23 @@ const Store = () => {
 
   return (
     <div className="container mt-4">
-      <h2>Rewards Store</h2>
-      <p>Your Points: {points}</p>
-      <ul>
+      <h2 style={{ color: '#6c63ff' }}>Rewards Store</h2>
+      <div className="points-display">Your Points: {points}</div>
+      <div>
         {store.map((item) => (
-          <li key={item.id}>
-            {item.item} - {item.points} points
-            <button onClick={() => handlePurchase(item.points)} className="btn btn-primary ml-2">Buy</button>
-          </li>
+          <div key={item.id} className="store-item">
+            <span>{item.item}</span>
+            <span>
+              {item.points} points
+              <button
+                onClick={() => handlePurchase(item.points)}
+              >
+                Buy
+              </button>
+            </span>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
