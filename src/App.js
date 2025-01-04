@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import Schedule from './components/Schedule';
 import Grades from './components/Grades';
+import Store from './components/Store';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Dashboard />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/grades" element={<Grades />} />
+        <Route path="/store" element={<Store />} />
       </Routes>
     </Router>
   );
