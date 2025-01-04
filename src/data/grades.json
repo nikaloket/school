@@ -1,5 +1,12 @@
 [
-    { "subject": "Math", "grade": 95 },
-    { "subject": "English", "grade": 88 }
+    { "subject": "Math", "week1": 95, "week2": 92, "week3": 93, "week4": 90, "week5": null, "week6": 88, "week7": 91, "week8": null, "week9": 89, "week10": 90 },
+    { "subject": "English", "week1": 88, "week2": 85, "week3": 87, "week4": null, "week5": 89, "week6": 90, "week7": null, "week8": 92, "week9": 91, "week10": 93 },
+    { "subject": "History", "week1": 92, "week2": 90, "week3": null, "week4": 88, "week5": 91, "week6": 89, "week7": null, "week8": 87, "week9": 90, "week10": 93 },
+    { "subject": "Science", "week1": 85, "week2": 87, "week3": 88, "week4": null, "week5": 86, "week6": 84, "week7": 90, "week8": 91, "week9": 92, "week10": null },
+    { "subject": "Art", "week1": 78, "week2": null, "week3": 80, "week4": 82, "week5": null, "week6": 79, "week7": 85, "week8": null, "week9": 88, "week10": 87 },
+    { "subject": "Music", "week1": 89, "week2": 91, "week3": 92, "week4": 94, "week5": null, "week6": 95, "week7": 90, "week8": null, "week9": 93, "week10": 96 },
+    { "subject": "Physical Education", "week1": 94, "week2": 93, "week3": null, "week4": 90, "week5": 92, "week6": 91, "week7": 95, "week8": 93, "week9": null, "week10": 96 },
+    { "subject": "Computer Science", "week1": 98, "week2": 97, "week3": 99, "week4": 100, "week5": null, "week6": 95, "week7": 92, "week8": 93, "week9": 91, "week10": null },
+    { "subject": "Geography", "week1": 87, "week2": 85, "week3": null, "week4": 88, "week5": 90, "week6": 89, "week7": 92, "week8": 91, "week9": 90, "week10": 93 }
   ]
   

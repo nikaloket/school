@@ -145,6 +145,7 @@ body {
     color: #721c24;
     border: 1px solid #f5c6cb;
   }
+  
   .store-title {
     color: #6c63ff;
     text-align: center;
@@ -175,7 +176,7 @@ body {
   
   @media (max-width: 768px) {
     .items-grid {
-      grid-template-columns: repeat(2, 1fr); 
+      grid-template-columns: repeat(2, 1fr);
     }
   }
   
@@ -201,9 +202,9 @@ body {
   }
   
   .item-image {
-    width: 200px; 
+    width: 200px;
     height: 200px;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
   }
@@ -237,4 +238,49 @@ body {
   .btn-buy:hover:not(:disabled) {
     background-color: #524cb8;
   }
-    
+  
+  .grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grades-table th,
+  .grades-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .grades-table th {
+    background-color: #6c63ff;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .grades-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .grades-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .grades-table td {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .grades-table td:nth-child(n+2) {
+    font-weight: bold;
+  }
+  
+  .grades-table td:empty {
+    color: #999;
+  }
+  
+  .grades-table td {
+    min-width: 60px;
+  }
+  
