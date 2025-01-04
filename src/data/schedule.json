@@ -1,5 +1,34 @@
 [
-    { "day": "Monday", "subjects": ["Math", "English", "History"] },
-    { "day": "Tuesday", "subjects": ["Science", "PE", "Math"] }
-  ]
+  { "day": "Monday", "subjects": ["Math", "English", "History"] },
+  { "day": "Tuesday", "subjects": ["Science", "PE", "Math"] },
+  { "day": "Wednesday", "subjects": ["Biology", "Art", "English"] },
+  { "day": "Thursday", "subjects": ["Free Day"] },
+  { "day": "Friday", "subjects": ["Chemistry", "Geography", "Math"] },
+  { "day": "Saturday", "subjects": ["Music", "Literature", "Physics"] },
+  { "day": "Sunday", "subjects": ["Free Day"] },
+
+  { "day": "Monday", "subjects": ["Math", "English", "Biology"] },
+  { "day": "Tuesday", "subjects": ["Free Day"] },
+  { "day": "Wednesday", "subjects": ["Geography", "Literature", "Art"] },
+  { "day": "Thursday", "subjects": ["History", "Math", "Chemistry"] },
+  { "day": "Friday", "subjects": ["Biology", "Geography", "PE"] },
+  { "day": "Saturday", "subjects": ["Physics", "Art", "Literature"] },
+  { "day": "Sunday", "subjects": ["Free Day"] },
+
+  { "day": "Monday", "subjects": ["Math", "English", "History"] },
+  { "day": "Tuesday", "subjects": ["Science", "PE", "Math"] },
+  { "day": "Wednesday", "subjects": ["Biology", "Art", "English"] },
+  { "day": "Thursday", "subjects": ["Free Day"] },
+  { "day": "Friday", "subjects": ["Chemistry", "Geography", "Math"] },
+  { "day": "Saturday", "subjects": ["Music", "Literature", "Physics"] },
+  { "day": "Sunday", "subjects": ["Free Day"] },
+
+  { "day": "Monday", "subjects": ["Math", "English"] },
+  { "day": "Tuesday", "subjects": ["Free Day"] },
+  { "day": "Wednesday", "subjects": ["Geography", "Literature", "Art"] },
+  { "day": "Thursday", "subjects": [ "Math", "Chemistry"] },
+  { "day": "Friday", "subjects": ["Biology", "Geography", "PE"] },
+  { "day": "Saturday", "subjects": ["Physics", "Art", "Literature"] },
+  { "day": "Sunday", "subjects": ["Free Day"] }
   
+]

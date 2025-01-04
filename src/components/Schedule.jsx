@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import scheduleData from '../data/schedule.json';
+import '../styles.css'; 
 
 const Schedule = () => {
   const [schedule, setSchedule] = useState([]);
@@ -9,15 +10,22 @@ const Schedule = () => {
   }, []);
 
   return (
-    <div className="container mt-4">
-      <h2>Your Schedule</h2>
-      <ul>
+    <div className="schedule-container">
+      <h2 className="schedule-title">Your Schedule</h2>
+      <div className="schedule-grid">
         {schedule.map((day, index) => (
-          <li key={index}>
-            <strong>{day.day}</strong>: {day.subjects.join(', ')}
-          </li>
+          <div key={index} className="schedule-day-card">
+            <div className="day-name">{day.day}</div>
+            <ul className="subjects-list">
+              {day.subjects.map((subject, idx) => (
+                <li key={idx} className="subject-item">
+                  {subject}
+                </li>
+              ))}
+            </ul>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
