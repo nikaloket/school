@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
@@ -9,6 +9,8 @@ import Help from './components/Help';
 import './styles.css';
 
 function App() {
+  const [points, setPoints] = useState(300); 
+
   return (
     <Router>
       <Navbar />
@@ -17,7 +19,10 @@ function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/grades" element={<Grades />} />
-          <Route path="/store" element={<Store />} />
+          <Route
+            path="/store"
+            element={<Store points={points} setPoints={setPoints} />} 
+          />
           <Route path="/help" element={<Help />} />
         </Routes>
       </div>
